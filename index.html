@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <!--
+        ´´´´´´´´██´´´´´´´
+        ´´´´´´´████´´´´´´
+        ´´´´´████████´´´´
+        ´´`´███▒▒▒▒███´´´´´
+        ´´´███▒●▒▒●▒██´´´
+        ´´´███▒▒▒▒▒▒██´´´´´
+        ´´´███▒▒▒▒██´                      项目：个人主页
+        ´´██████▒▒███´´´´´     
+        ´██████▒▒▒▒███´´                   框架： MDUI
+        ██████▒▒▒▒▒▒███´´´´    
+        ´´▓▓▓▓▓▓▓▓▓▓▓▓▓▒´´  
+        ´´▒▒▒▒▓▓▓▓▓▓▓▓▓▒´´´´´  
+        ´.▒▒▒´´▓▓▓▓▓▓▓▓▒´´´´´  
+        ´.▒▒´´´´▓▓▓▓▓▓▓▒      
+        ..▒▒.´´´´▓▓▓▓▓▓▓▒     
+        ´▒▒▒▒▒▒▒▒▒▒▒▒         
+        ´´´´´´´´´███████´´´´´
+        ´´´´´´´´████████´´´´´´´
+        ´´´´´´´█████████´´´´´´
+        ´´´´´´██████████´´´´             这路遥马急的人间，你又能记住我多久
+        ´´´´´´██████████´´´             
+        ´´´´´´´█████████´´
+        ´´´´´´´█████████´´´
+        ´´´´´´´´████████´´´´´
+        ________▒▒▒▒▒
+        _________▒▒▒▒
+        _________▒▒▒▒
+        ________▒▒_▒▒
+        _______▒▒__▒▒
+        _____ ▒▒___▒▒
+        _____▒▒___▒▒
+        ____▒▒____▒▒
+        ___▒▒_____▒▒
+        ███____ ▒▒
+        ████____███
+        █ _███_ _█_███
+——————————————————————————女神保佑，代码无bug——————————————————————
+-->
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="theme-color" content="#3F51B5">
+    <title>首页 - Mr. Gao</title>
+    <meta name="keywords" content="高先生,高先生笔记">
+    <meta name="description" content="这路遥马急的人间，你又能记住我多久">    
+    <link rel="stylesheet" href="css/mdui.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css"></head>
+  
+  <body>
+    <div class="mdui-appbar-with-toolbar mdui-theme-accent-pink mdui-theme-primary-indigo">
+      <div class="mdui-appbar mdui-appbar-fixed">
+        <div class="mdui-toolbar mdui-color-white mdui-color-theme">
+          <button mdui-drawer="{target: &#39;.mc-drawer&#39;, swipe: true}" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white">
+            <i class="mdui-icon icon-bars"></i>
+          </button>
+          <a class="mdui-typo-headline" href="#">Mr. Gao</a>
+          <div class="mdui-typo-title mdui-hidden-xs-down">首页</div>
+          <div class="mdui-toolbar-spacer"></div>
+          <a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon">
+            <i class="mdui-icon icon-refresh"></i>
+          </a>
+        </div>
+      </div>
+      <div class="mc-drawer mdui-drawer mdui-drawer-close">
+        <div class="mdui-list">
+          <a class="mdui-list-item mdui-ripple mdui-text-color-theme mdui-list-item-active" href="#">
+            <div class="mdui-list-item-content">首页</div></a>
+          <a class="mdui-list-item mdui-ripple" href="https://www.gxsnote.cn/">
+            <div class="mdui-list-item-content">博客首页</div></a>
+          <a class="mdui-list-item mdui-ripple" href="http://wpa.qq.com/msgrd?v=3&uin=67031002&site=qq&menu=yes">
+            <div class="mdui-list-item-content">联系作者</div></a>
+        </div>
+        <div class="copyright"></div>
+      </div>
+      <div id="page-index">
+        <div class="main-section mdui-color-theme">
+          <div class="mdui-container main-container">
+            <h2>Hello,I'm Mr. Gao.</h2>
+            <h4>👦 这路遥马急的人间，你又能记住我多久</h4>
+            <div class="description">📝 The only way to do
+            <span class="purpleText">great</span>
+            is to
+            <span class="purpleText">love</span> what you do.
+        </div>
+            <div class="main-btn-wrapper">
+              <a href="http://wpa.qq.com/msgrd?v=3&uin=67031002&site=qq&menu=yes" class="mdui-btn main-btn mdui-ripple mdui-ripple-white mdui-m-r-2" mdui-tooltip="{content: &#39; 联系作者&#39;}">联系作者</a></div>
+            <div class="main-meta-wrapper mdui-typo-caption-opacity">
+            </div>
+          </div>
+        </div>
+        <div align="center">
+            <img id="tanChiShe" src="images/snake-Light.svg" alt=""  width="100%" height="100%">
+        </div>
+        <!--作品-->
+        <div class="case-section"  id="WebSite">
+          <div class="mdui-container">
+            <div class="case-header">WebSite</div>
+            <div class="mdui-row-md-3 mdui-row-sm-2">
+              <a href="https://www.gxsnote.cn/" target="_blank" rel="nofollow" class="mdui-col case-item mdui-ripple">
+                <img class="case-item-logo" src="images/i1.png">
+                <div class="case-item-detail">
+                  <div class="case-item-detail-title">高先生笔记</div>
+                  <div class="case-item-detail-desc">这路遥马急的人间，你又能记住我多久？</div></div>
+              </a>
+              <a href="https://love.gxsnote.cn/" target="_blank" rel="nofollow" class="mdui-col case-item mdui-ripple">
+                <img class="case-item-logo" src="images/i2.png">
+                <div class="case-item-detail">
+                  <div class="case-item-detail-title">啭脚表白生成系统</div>
+                  <div class="case-item-detail-desc">要脱单就来啭脚表白网给你爱的TA表白吧！</div></div>
+              </a>
+               <a href="https://tool.gxsnote.cn/" target="_blank" rel="nofollow" class="mdui-col case-item mdui-ripple">
+                <img class="case-item-logo" src="images/i3.png">
+                <div class="case-item-detail">
+                  <div class="case-item-detail-title">高先生工具箱</div>
+                  <div class="case-item-detail-desc">好用的在线工具都在这里！</div></div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+        
+<!--
+                   _ooOoo_
+                  o8888888o
+                  88" . "88
+                  (| -_- |)
+                  O\  =  /O
+               ____/`---'\____
+             .'  \\|     |//  `.
+            /  \\|||  :  |||//  \
+           /  _||||| -:- |||||-  \
+           |   | \\\  -  /// |   |
+           | \_|  ''\---/''  |   |
+           \  .-\__  `-`  ___/-. /
+         ___`. .'  /--.--\  `. . __
+      ."" '<  `.___\_<|>_/___.'  >'"".
+     | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+     \  \ `-.   \_ __\ /__ _/   .-` /  /
+======`-.____`-.___\_____/___.-`____.-'======
+                   `=---='
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            佛祖保佑       永无BUG
+-->
+        <!--友链-->
+        <div class="comment-section">
+          <div class="mdui-container">
+            <div class="case-header">Links</div>
+            <div class="mdui-row-sm-2">
+              <div class="mdui-col">
+                <a href="http://wpa.qq.com/msgrd?v=3&uin=67031002&site=qq&menu=yes" class="comment-link" target="_blank">
+                  <div class="comment-item">
+                    <i class="mdui-icon icon-quote_left mdui-text-color-grey-300 comment-item-icon"></i>
+                    <div class="comment-item-detail">
+                      <div class="comment-item-content">只有不断努力才能摆脱菜鸡等级，加油！</div>
+                      <div class="comment-item-author">
+                        <img class="comment-item-author-avatar" src="https://q2.qlogo.cn/headimg_dl?spec=5&dst_uin=67031002">
+                        <div class="comment-item-author-name">申请友链</div>
+                        <div class="comment-item-author-job">申请友链</div></div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="mdui-col">
+                <a href="http://wpa.qq.com/msgrd?v=3&uin=67031002&site=qq&menu=yes" class="comment-link" target="_blank">
+                  <div class="comment-item">
+                    <i class="mdui-icon icon-quote_left mdui-text-color-grey-300 comment-item-icon"></i>
+                    <div class="comment-item-detail">
+                      <div class="comment-item-content">Stay Hungry, Stay Foolish.</div>
+                      <div class="comment-item-author">
+                        <img class="comment-item-author-avatar" src="https://q2.qlogo.cn/headimg_dl?spec=5&dst_uin=67031002">
+                        <div class="comment-item-author-name">申请友链</div>
+                        <div class="comment-item-author-job">申请友链</div></div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- 
+                              _.._        ,------------.
+                           ,'      `.    (I want you! )
+                          /  __) __` \    `-,----------'
+                         (  (`-`(-')  ) _.-'
+                         /)  \  = /  (
+                        /'    |--' .  \
+                       (  ,---|  `-.)__`
+                        )(  `-.,--'   _`-.
+                       '/,'          (  Uu",
+                        (_       ,    `/,-' )
+                        `.__,  : `-'/  /`--'
+                          |     `--'  |
+                          `   `-._   /
+                           \        (
+                           /\ .      \.  
+                          / |` \     ,-\
+                         /  \| .)   /   \
+                        ( ,'|\    ,'     :
+                        | \,`.`--"/      }
+                        `,'    \  |,'    /
+                       / "-._   `-/      |
+                       "-.   "-.,'|     ;
+                      /        _/["---'""]
+                     :        /  |"-     '
+                     '           |      /
+                                 `      |
+
+-->
+        <footer>
+          <div class="mdui-container">
+            <div class="mdui-row footer-nav">
+              <div class="mdui-col-sm-3 mdui-col-xs-6" id="contact">
+                <h4>作者信息</h4>
+                <ul>
+                  <li>
+                    <i class="icon-qq"></i>QQ:
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=67031002" target="_blank">67031002</a></li>
+                  <li>
+                  <i class="icon-wechat"></i>微信公众号:
+                    <a href="#" target="_blank">gxsnote</a></li>
+                  <li>
+                    <i class="icon-envelope_alt"></i>Email:
+                    <a href="mailto:admin@gxsnote.cn" target="_blank">admin@gxsnote.cn</a></li>
+                  <!--<li>
+                    <i class="icon-bilibili"></i>BiliBili:
+                    <a href="/" target="_blank">/</a></li>
+                  <li>
+                    <i class="icon-youtube_play"></i>YouTube:
+                    <a href="/" target="_blank">/</a></li>
+                  <li>
+                    <i class="icon-youku"></i>优酷:
+                    <a href="/" target="_blank">/</a></li>
+                  <li>
+                    <i class="icon-github"></i>Github:
+                    <a href="/" target="_blank">/</a></li>-->
+                  <li>
+                    <i class="icon-telegram"></i>Telegram:
+                    <a href="https://t.me/zhuanjiao112" target="_blank">@zhuanjiao112</a></li>
+                </ul>
+              </div>
+              <div class="mdui-col-sm-3 mdui-col-xs-6">
+                <h4>页面介绍</h4>
+                <ul>
+                  <li>本页面由Zhuan_Jiao在
+                    <a href="//www.mdui.org">MDUI官网</a>基础上修改制作而成。</li>
+                  <li>服务器搭建在 北京 腾讯云。</li>
+                  <li>添加友链请通过「作者信息」联系我~</li>
+                  <li>欢迎与我交流讨论~</li></ul>
+              </div>
+              <div class="mdui-col-sm-6 mdui-col-xs-12 mdui-text-center">
+                <h4>打赏作者</h4>
+                <ul>
+                  <li>如果你能打赏，我将不胜感激，这是激励我的巨大动力</li></ul>
+                <button id="donate" class="mdui-btn mdui-color-theme-accent mdui-ripple footer-donate-btn" mdui-dialog="{target: &#39;#dialog-donate&#39;}">开始打赏</button></div>
+            </div>
+            <div class="mdui-divider-light footer-divider"></div>
+            <div class="footer-copyright">Copyright © 2017 - 2024
+              <a href="https://www.145v1.com">Zhuan_Jiao</a> All rights reserved.<script type="text/javascript" src="https://js.users.51.la/21342239.js"></script></div>
+               <a href="https://beian.miit.gov.cn/" style="display: block; text-align: center;">蒙ICP备 2022001900号-1</a>
+        </footer>
+        <div id="dialog-donate" class="mdui-dialog">
+          <div class="mdui-dialog-content mdui-valign">
+            <div class="mdui-row">
+              <div class="mdui-col-xs-6">
+                <img class="mdui-img-fluid mdui-img-rounded" src="https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/ef4ac682d7de85dacd82bd81b84ddb9582eaea7fee6772d743a5eed297c35838e3560886d895033749d9a01ea45d7344?pictype=scale&from=30111&version=3.3.3.3&uin=67031002&fname=1604122036350.jpg&size=1024
+"></div>
+              <div class="mdui-col-xs-6">
+                <img class="mdui-img-fluid mdui-img-rounded" src="https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/452132e8666060178636ce8ed71335724db3502cde385343d61a09e59853e759cdf473071258712bcabd4d22c2c188b2?pictype=scale&from=30111&version=3.3.3.3&uin=67031002&fname=mm_facetoface_collect_qrcode_1604122025014.png&size=1024
+"></div>
+              <div class="mdui-col-xs-12">
+                <p>如果你能打赏，我将不胜感激，这是激励我的巨大动力。再次感谢！</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/mdui.min.js"></script>
+  </body>
+<!--
+                       ::
+                      :;J7, :,                        ::;7:
+                      ,ivYi, ,                       ;LLLFS:
+                      :iv7Yi                       :7ri;j5PL
+                     ,:ivYLvr                    ,ivrrirrY2X,
+                     :;r@Wwz.7r:                :ivu@kexianli.
+                    :iL7::,:::iiirii:ii;::::,,irvF7rvvLujL7ur
+                   ri::,:,::i:iiiiiii:i:irrv177JX7rYXqZEkvv17
+                ;i:, , ::::iirrririi:i:::iiir2XXvii;L8OGJr71i
+              :,, ,,:   ,::ir@mingyi.irii:i:::j1jri7ZBOS7ivv,
+                 ,::,    ::rv77iiiriii:iii:i::,rvLq@huhao.Li
+             ,,      ,, ,:ir7ir::,:::i;ir:::i:i::rSGGYri712:
+           :::  ,v7r:: ::rrv77:, ,, ,:i7rrii:::::, ir7ri7Lri
+          ,     2OBBOi,iiir;r::        ,irriiii::,, ,iv7Luur:
+        ,,     i78MBBi,:,:::,:,  :7FSL: ,iriii:::i::,,:rLqXv::
+        :      iuMMP: :,:::,:ii;2GY7OBB0viiii:i:iii:i:::iJqL;::
+       ,     ::::i   ,,,,, ::LuBBu BBBBBErii:i:i:i:i:i:i:r77ii
+      ,       :       , ,,:::rruBZ1MBBqi, :,,,:::,::::::iiriri:
+     ,               ,,,,::::i:  @arqiao.       ,:,, ,:::ii;i7:
+    :,       rjujLYLi   ,,:::::,:::::::::,,   ,:i,:,,,,,::i:iii
+    ::      BBBBBBBBB0,    ,,::: , ,:::::: ,      ,,,, ,,:::::::
+    i,  ,  ,8BMMBBBBBBi     ,,:,,     ,,, , ,   , , , :,::ii::i::
+    :      iZMOMOMBBM2::::::::::,,,,     ,,,,,,:,,,::::i:irr:i:::,
+    i   ,,:;u0MBMOG1L:::i::::::  ,,,::,   ,,, ::::::i:i:iirii:i:i:
+    :    ,iuUuuXUkFu7i:iii:i:::, :,:,: ::::::::i:i:::::iirr7iiri::
+    :     :rk@Yizero.i:::::, ,:ii:::::::i:::::i::,::::iirrriiiri::,
+     :      5BMBBBBBBSr:,::rv2kuii:::iii::,:i:,, , ,,:,:i@petermu.,
+          , :r50EZ8MBBBBGOBBBZP7::::i::,:::::,: :,:,::i;rrririiii::
+              :jujYY7LS0ujJL7r::,::i::,::::::::::::::iirirrrrrrr:ii:
+           ,:  :@kevensun.:,:,,,::::i:i:::::,,::::::iir;ii;7v77;ii;i,
+           ,,,     ,,:,::::::i:iiiii:i::::,, ::::iiiir@xingjief.r;7:i,
+        , , ,,,:,,::::::::iiiiiiiiii:,:,:::::::::iiir;ri7vL77rrirri::
+         :,, , ::::::::i:::i:::i:i::,,,,,:,::i:i:::iir;@Secbone.ii:::
+
+-->
+</html>
